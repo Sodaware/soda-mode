@@ -170,6 +170,16 @@
             (indent-line-to cur-indent)
             (indent-line-to 0)))))
 
+;;###autoload
+(with-eval-after-load "all-the-icons"
+  ;; Enable "All the icons" icons (if package is installed).
+  (add-to-list
+   'all-the-icons-icon-alist
+   '("\\.soda$" all-the-icons-material "local_drink" :v-adjust 0.0 :face all-the-icons-lgreen))
+
+  (add-to-list
+   'all-the-icons-mode-icon-alist
+   '(soda-mode all-the-icons-material "local_drink" :height 1.0 :v-adjust 0.0 :face all-the-icons-lgreen)))
 
 ;;;###autoload
 (defun soda-mode ()
