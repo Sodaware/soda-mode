@@ -1,4 +1,4 @@
-;;; soda-mode.el -- Major mode for editing SODA files. -*- lexical-binding: t; -*-
+;;; soda-mode.el --- Major mode for editing SODA files. -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2014-2019 Phil Newton <phil@sodaware.net>
 
